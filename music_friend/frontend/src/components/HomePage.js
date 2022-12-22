@@ -18,8 +18,8 @@ export default class HomePage extends Component {
     return (
       <Router>
         <Routes>
-          <Route path="/" element={<p>This is the HomePage</p>} />
-          <Route path="/join/*" element={<JoinRoomPage />} />
+          <Route path="/" element={<p>This is the HomePage idk help what is this error</p>} />
+          <Route path="/join" element={<JoinRoomPage />} />
           <Route path="/create" element={<CreateRoomPage />} />
         </Routes>
       </Router>
